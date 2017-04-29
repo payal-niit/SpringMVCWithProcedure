@@ -1,0 +1,119 @@
+.navbar {
+ margin-bottom: 0;
+ margin-top: 0;
+ margin-left: 0;
+ margin-right: 0;
+ }
+.navbar-default {
+  background-color: #002247;
+  border-color: #002247;
+  
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5bc0de;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #0f4502;
+  background-color: #5bc0de;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #0f4502;
+  background-color: #5bc0de;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #0f4502;
+  background-color: #5bc0de;
+}
+.navbar-default .navbar-toggle {
+  border-color: #5bc0de;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #5bc0de;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #0f4502;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #0f4502;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #0f4502;
+    background-color: #5bc0de;
+  }
+  
+  /* for right margin after job in the navbar */
+  .right_li {
+  margin-right: 15px;
+  }
+  /* over */
+}
+@media (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  .btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+/* for caruusel with thumbnail */
+
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+.nav-justified > li > a
+{
+    border-radius: 0px;
+}
+.nav-pills>li[data-slide-to="0"].active a { background-color: #002247; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: #002247; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #002247; }
+.nav-pills>li[data-slide-to="3"].active a { background-color: #002247; }
+
+/* carousel images fix size */
+.c_img {
+	min-height: 350px;
+	max-height: 350px;
+	min-width: 100%;
+	max-width: 100%;
+}

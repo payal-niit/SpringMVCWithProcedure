@@ -1,0 +1,25 @@
+.glyphicon-lg
+{
+    font-size:4em;
+}
+.info-block
+{
+   border:1px solid #002247; border-bottom:5px solid #002247; margin-bottom:25px; text-transform: capitalize;
+}
+.info-block:hover
+{
+ transform: scale(1.02,1.02);
+ cursor: pointer;
+}
+.info-block .square-box
+{
+    margin-right:10px;
+}
+.info-block.block-info
+{
+    border-color:#002247;
+}
+.info-block.block-info .square-box
+{
+    background-color:#002247;color:#FFF;
+}
